@@ -18,8 +18,10 @@ Available addons
 ----------------
 addon | version | summary
 --- | --- | ---
+[account_invoice_reorder_lines](account_invoice_reorder_lines/) | 8.0.1.0.0 | Provide a new field on the invoice line form, allowing to manage the lines order.
 [partner_prepayment](partner_prepayment/) | 8.0.1.0.0 | Option on partner to set prepayment policy
 [partner_prospect](partner_prospect/) | 8.0.1.0.0 | Partner Prospect
+[sale_automatic_workflow](sale_automatic_workflow/) | 8.0.0.2.0 | Sale Automatic Workflow
 [sale_cancel_reason](sale_cancel_reason/) | 8.0.1.1 | Sale Cancel Reason
 [sale_exception_nostock](sale_exception_nostock/) | 8.0.1.2.0 | Sale stock exception
 [sale_exceptions](sale_exceptions/) | 8.0.1.0.0 | Custom exceptions on sale order
@@ -31,11 +33,18 @@ addon | version | summary
 [sale_order_revision](sale_order_revision/) | 8.0.0.1.0 | Sale order revisions
 [sale_order_type](sale_order_type/) | 8.0.1.0.1 | Sale Order Types
 [sale_owner_stock_sourcing](sale_owner_stock_sourcing/) | 8.0.0.1.0 | Manage stock ownership on sale order lines
+[sale_packaging_price](sale_packaging_price/) | 8.0.1.0.0 | Sale Packaging Price
+[sale_partner_incoterm](sale_partner_incoterm/) | 8.0.1.0.0 | Set the customer preferred incoterm on each sales order
 [sale_partner_order_policy](sale_partner_order_policy/) | 8.0.1.0.0 | Adds customer create invoice method on partner form
+[sale_payment_method](sale_payment_method/) | 0.2.1 | Sale Payment Method
+[sale_payment_method_automatic_workflow](sale_payment_method_automatic_workflow/) | 8.0.1.0.0 | Sale Payment Method - Automatic Worflow (link module)
 [sale_payment_term_interest](sale_payment_term_interest/) | 8.0.1.0.0 | Sales Payment Term Interests
+[sale_pricelist_discount](sale_pricelist_discount/) | 1.0 | Sale Pricelist Discount
 [sale_procurement_group_by_line](sale_procurement_group_by_line/) | 8.0.1.0.0 | Base module for multiple procurement group by Sale order
 [sale_product_set](sale_product_set/) | 8.0.1.0.0 | Sale product set
 [sale_product_set_layout](sale_product_set_layout/) | 8.0.1.0.0 | Sale product set layout
+[sale_properties_dynamic_fields](sale_properties_dynamic_fields/) | 8.0.1.0.0 | Sale properties dynamic fields
+[sale_properties_easy_creation](sale_properties_easy_creation/) | 8.0.1.0.0 | Easing properties input in sale order line
 [sale_quotation_number](sale_quotation_number/) | 8.0.1.1.0 | Different sequence for sale quotations
 [sale_quotation_sourcing](sale_quotation_sourcing/) | 8.0.0.3.1 | manual sourcing of sale quotations
 [sale_quotation_sourcing_stock_route_transit](sale_quotation_sourcing_stock_route_transit/) | 8.0.0.1.0 | Link module for sale_quotation_sourcing + stock_route_transit
@@ -50,13 +59,13 @@ Unported addons
 ---------------
 addon | version | summary
 --- | --- | ---
-[account_invoice_reorder_lines](account_invoice_reorder_lines/) | 0.1 (unported) | Invoice lines with sequence number
 [mail_quotation](mail_quotation/) | 0.1 (unported) | Mail quotation
 [pricelist_share_companies](pricelist_share_companies/) | 1.0 (unported) | Share pricelist between compagnies, not product
 [product_customer_code_sale](product_customer_code_sale/) | 1.0 (unported) | Product Customer code on sale
 [product_special_type](product_special_type/) | 1.0 (unported) | Product Special Types
 [product_special_type_invoice](product_special_type_invoice/) | 1.0 (unported) | Product Special Type on Invoice
 [product_special_type_sale](product_special_type_sale/) | 1.0 (unported) | Product Special Type on Sale
+[sale_automatic_workflow_exception](sale_automatic_workflow_exception/) | 0.0.1 (unported) | Sale Automatic Workflow Exception
 [sale_condition_text](sale_condition_text/) | 1.3 (unported) | Sale/invoice condition
 [sale_delivery_term](sale_delivery_term/) | 0.1 (unported) | Delivery term for sale orders
 [sale_dropshipping](sale_dropshipping/) | 1.1.1 (unported) | Sale Dropshipping
@@ -65,6 +74,7 @@ addon | version | summary
 [sale_journal_shop](sale_journal_shop/) | 0.0.1 (unported) | Sale Journal Shop
 [sale_multi_picking](sale_multi_picking/) | 0.1 (unported) | Multi Pickings from Sale Orders
 [sale_order_force_number](sale_order_force_number/) | 0.1 (unported) | Force sale orders numeration
+[sale_payment_method_transaction_id](sale_payment_method_transaction_id/) | 1.0 (unported) | Sale Payment Method - Transaction ID Compatibility
 [sale_stock_global_delivery_lead_time](sale_stock_global_delivery_lead_time/) | 0.1 (unported) | Sale global delivery lead time
 
 [//]: # (end addons)
